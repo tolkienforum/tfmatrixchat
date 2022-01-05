@@ -151,8 +151,6 @@ class _tfMatrixChatWhosOnline extends \IPS\Widget
             $hideUsernames = explode(",", $hideUsernamesString);
         }
 
-        //$roomId = "!VtFPkXghMxFBzFquhx:matrix.tolkienforum.de";
-
         $chatVersionDefault = array(
             'name' => "?",
             'version' => "0"
@@ -175,7 +173,7 @@ class _tfMatrixChatWhosOnline extends \IPS\Widget
             $matrixUserIdToDisplayName += [$matrixUserId => $userProps['display_name']];
         }
 
-        // read presence: GET {{host}}/_matrix/client/v3/sync?access_token={{token}}&filter={"account_data": {"not_types": ["*"]}, "presence": {"limit": 1}, "room":{"rooms": ["!VtFPkXghMxFBzFquhx:matrix.tolkienforum.de"], "timeline":{"limit":1}, "state":{ "types": ["m.room.topic"]}}}
+        // read presence: GET {{host}}/_matrix/client/v3/sync?access_token={{token}}&filter={"account_data": {"not_types": ["*"]}, "presence": {"limit": 1}, "room":{"rooms": ["<roomId>"], "timeline":{"limit":1}, "state":{ "types": ["m.room.topic"]}}}
         $getParams = array(
             'access_token' => $token,
             'filter' => '{"account_data": {"not_types": ["*"]}, "presence": {"limit": 1}, "room":{"rooms": ["' . $roomId . '"], "timeline":{"limit":1}, "state":{ "types": ["m.room.topic"]}}}'
