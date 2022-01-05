@@ -1,0 +1,21 @@
+<ips:template parameters="$members=array(), $memberCount=0, $chatVersion=array(), $topic='', $orientation='vertical'" />
+<h3 class='ipsType_reset ipsWidget_title' title='{$chatVersion["name"]}:{$chatVersion["version"]}'>
+	{lang="block_tfMatrixChatWhosOnline"} ({$memberCount})
+</h3>
+<div class='ipsWidget_inner {{if $orientation == "vertical"}}ipsPad{{else}}ipsPad_half{{endif}}'>
+	{{if !empty($topic)}}
+        <div class="channelTopic">{$topic}</div>
+    {{endif}}
+	{{if $memberCount}}
+		<ul class='ipsList_inline ipsList_noSpacing'>
+			{{foreach $members as $m}}
+				<li class="status">
+					<span class='status_{$m["status"]}' title='{$m["name"]}: {$m["status"]}'>&#9679;</span>
+					{template="userLinkFromData" group="global" app="core" params="$m['forumUserID'], $m['username'], $m['seo_name'], $m['groupID'], TRUE"}
+				</li>
+			{{endforeach}}
+		</ul>
+	{{else}}
+		<p class='ipsType_reset ipsType_medium ipsType_light'>{lang="block_nobodyOnline"}</p>
+	{{endif}}
+</div>

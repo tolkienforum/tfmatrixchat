@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<build>
+ <widget key="tfMatrixChatWhosOnline"><![CDATA[{"class":"\\IPS\\Widget","restrict":["sidebar"],"default_area":"","allow_reuse":false,"menu_style":"menu","embeddable":false}]]></widget>
+</build>

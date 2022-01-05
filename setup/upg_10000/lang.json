@@ -1,0 +1,19 @@
+{
+    "normal": {
+        "added": [
+            "__app_tfmatrixchat",
+            "tfmatrixchat_no_settings",
+            "tfmatrixchat_url",
+            "tfmatrixchat_token",
+            "tfmatrixchat_topic_room_id",
+            "tfmatrixchat_filter_usernames"
+        ],
+        "edited": [],
+        "removed": []
+    },
+    "js": {
+        "added": [],
+        "edited": [],
+        "removed": []
+    }
+}

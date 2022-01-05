@@ -1,0 +1,21 @@
+{
+    "html": {
+        "added": [
+            "front\/widgets\/tfMatrixChatWhosOnline"
+        ],
+        "edited": [],
+        "removed": []
+    },
+    "css": {
+        "added": [
+            "front\/styles.css"
+        ],
+        "edited": [],
+        "removed": []
+    },
+    "resources": {
+        "added": [],
+        "edited": [],
+        "removed": []
+    }
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language>
+ <app key="tfmatrixchat" version="202201002">
+  <word key="__app_tfmatrixchat" js="0">Matrix Chat Widget</word>
+  <word key="tfmatrixchat_no_settings" js="0">please edit and configure Matrix Chat widget first.</word>
+  <word key="tfmatrixchat_url" js="0">Url of the Matrix (Synapse) Server (no / at the end)</word>
+  <word key="tfmatrixchat_token" js="0">Token for the REST API.</word>
+  <word key="tfmatrixchat_room_id" js="0">Room-Id to use.</word>
+  <word key="tfmatrixchat_filter_usernames" js="0">Comma (,) separated list of usernames to hide.</word>
+  <word key="block_tfMatrixChatWhosOnline" js="0">Chat Users Online</word>
+  <word key="block_nobodyOnline" js="0">currently no users are online. be the first!</word>
+ </app>
+</language>

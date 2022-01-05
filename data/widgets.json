@@ -1,0 +1,12 @@
+{
+    "tfMatrixChatWhosOnline": {
+        "class": "\\IPS\\Widget",
+        "restrict": [
+            "sidebar"
+        ],
+        "default_area": "",
+        "allow_reuse": false,
+        "menu_style": "menu",
+        "embeddable": false
+    }
+}

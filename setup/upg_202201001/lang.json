@@ -1,0 +1,18 @@
+{
+    "normal": {
+        "added": [
+            "tfmatrixchat_room_id",
+            "block_tfMatrixChatWhosOnline",
+            "block_nobodyOnline"
+        ],
+        "edited": [],
+        "removed": [
+            "tfmatrixchat_topic_room_id"
+        ]
+    },
+    "js": {
+        "added": [],
+        "edited": [],
+        "removed": []
+    }
+}
