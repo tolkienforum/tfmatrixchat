@@ -183,7 +183,7 @@ class _tfMatrixChatWhosOnline extends \IPS\Widget
         $onlineUsers = $presenceResp['presence']['events'];
 
         $members = array();
-        $validStatus = array("online");
+        $validStatus = array("online", "unavailable");
         foreach($onlineUsers as $user) {
             $matrixUserId = $user['sender'];
             $status = $user['content']['presence']; // should be 'online' for now?

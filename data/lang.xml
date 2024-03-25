@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language>
- <app key="tfmatrixchat" version="202201002">
+ <app key="tfmatrixchat" version="202403251">
   <word key="__app_tfmatrixchat" js="0">Matrix Chat Widget</word>
   <word key="tfmatrixchat_no_settings" js="0">please edit and configure Matrix Chat widget first.</word>
   <word key="tfmatrixchat_url" js="0">Url of the Matrix (Synapse) Server (no / at the end)</word>
